@@ -54,7 +54,7 @@
       let response = await fetch('https://api.ipify.org?format=json');
       let data = await response.json();
       let ip = data.ip;
-      document.getElementById('ip-address').innerHTML = 'ايبيك يا حمار  IP   : ' + ip;
+      document.getElementById('ip-address').innerHTML = 'Catch You  IP   : ' + ip;
     } catch (error) {
       console.error('Error fetching IP address:', error);
     }
